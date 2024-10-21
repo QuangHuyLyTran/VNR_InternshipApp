@@ -1,0 +1,20 @@
+﻿/*loading CSS*/
+#loadingSpinner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+
+.khoaHocCard {
+    cursor: pointer; /* Chuyển đổi con trỏ chuột thành pointer khi hover */
+}
+.scrollable-list {
+    max-height: 400px; /* Chiều cao tối đa cho danh sách */
+    overflow-y: auto; /* Cho phép cuộn dọc khi quá chiều cao */
+    border: 1px solid #ddd; /* Đường viền để tạo khung */
+    border-radius: 5px; /* Bo góc cho khung */
+    padding: 10px; /* Padding bên trong */
+    background-color: #f8f9fa; /* Màu nền */
+}

@@ -1,0 +1,47 @@
+﻿@model IEnumerable<VNR_InternShipApp.Models.KhoaHoc>
+@{
+    ViewBag.Title = "Danh sách Khóa Học";
+}
+@section style
+{
+    @Styles.Render("~/Content/css/course_index.css")
+}
+<div class="container mt-5">
+    <div class="row">
+        <!-- Cot trai: danh sach mon hoc -->
+        <div class="col-md-8">
+            <h3 class="text-center mb-4" id="monHocTitle">Hãy chọn 1 khóa học</h3>
+            <ul id="monHocList" class="list-group scrollable-list">
+            </ul>
+        </div>
+
+        <!-- cot phai: danh sach khoa hoc -->
+        <div class="col-md-4">
+            <h3 class="text-center mb-4" >Danh sách Khóa Học</h3>
+            <div id="khoaHocList" class="list-group scrollable-list">
+                @foreach (var khoaHoc in Model)
+                {
+                    <div class="list-group-item khoaHocCard p-3 mb-2">
+                        <a class="text-decoration-none text-dark" data-id="@khoaHoc.ID">
+                            @khoaHoc.TenKhoaHoc
+                        </a>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Show loading gif khi tai du lieu -->
+<div id="loadingSpinner" style="display:none; text-align: center;">
+    <img src="~/Resourse/loading.gif" alt="loading..." />
+</div>
+
+@section scripts
+{
+
+    <script>
+        const urls = '@Url.Action("GetMonHocByKhoaHocId", "KhoaHoc")'
+    </script>
+    @Scripts.Render("~/Scripts/js/course_index.js")
+}
