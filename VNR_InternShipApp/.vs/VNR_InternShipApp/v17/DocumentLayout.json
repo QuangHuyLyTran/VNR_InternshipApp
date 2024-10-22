@@ -11,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{D6109011-46D1-42F0-B70B-43B28D3B7558}|VNR_InternShipApp\\VNR_InternShipApp.csproj|solutionrelative:vnr_internshipapp\\views\\khoahoc\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6109011-46D1-42F0-B70B-43B28D3B7558}|VNR_InternShipApp\\VNR_InternShipApp.csproj|D:\\Job\\Project\\VNR_InternshipApp\\VNR_InternShipApp\\vnr_internshipapp\\scripts\\js\\course_index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{D6109011-46D1-42F0-B70B-43B28D3B7558}|VNR_InternShipApp\\VNR_InternShipApp.csproj|solutionrelative:vnr_internshipapp\\scripts\\js\\course_index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D6109011-46D1-42F0-B70B-43B28D3B7558}|VNR_InternShipApp\\VNR_InternShipApp.csproj|D:\\Job\\Project\\VNR_InternshipApp\\VNR_InternShipApp\\vnr_internshipapp\\controllers\\khoahoccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6109011-46D1-42F0-B70B-43B28D3B7558}|VNR_InternShipApp\\VNR_InternShipApp.csproj|solutionrelative:vnr_internshipapp\\controllers\\khoahoccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6109011-46D1-42F0-B70B-43B28D3B7558}|VNR_InternShipApp\\VNR_InternShipApp.csproj|D:\\Job\\Project\\VNR_InternshipApp\\VNR_InternShipApp\\vnr_internshipapp\\scripts\\js\\course_index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{D6109011-46D1-42F0-B70B-43B28D3B7558}|VNR_InternShipApp\\VNR_InternShipApp.csproj|solutionrelative:vnr_internshipapp\\scripts\\js\\course_index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,14 +36,14 @@
               "RelativeDocumentMoniker": "VNR_InternShipApp\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\Job\\Project\\VNR_InternshipApp\\VNR_InternShipApp\\VNR_InternShipApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "VNR_InternShipApp\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAOAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-22T04:51:33.543Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "course_index.js",
               "DocumentMoniker": "D:\\Job\\Project\\VNR_InternshipApp\\VNR_InternShipApp\\VNR_InternShipApp\\Scripts\\js\\course_index.js",
               "RelativeDocumentMoniker": "VNR_InternShipApp\\Scripts\\js\\course_index.js",
@@ -56,7 +56,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "KhoaHocController.cs",
               "DocumentMoniker": "D:\\Job\\Project\\VNR_InternshipApp\\VNR_InternShipApp\\VNR_InternShipApp\\Controllers\\KhoaHocController.cs",
               "RelativeDocumentMoniker": "VNR_InternShipApp\\Controllers\\KhoaHocController.cs",
