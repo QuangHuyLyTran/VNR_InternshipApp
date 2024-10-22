@@ -23,15 +23,19 @@ namespace VNR_InternShipApp.Controllers
         // Action lay danh sach mon hoc theo id khoa hoc
         public JsonResult GetMonHocByKhoaHocId(int id)
         {
-            var monHocs = db.MonHocs.Where(m => m.KhoaHocID == id)
-                                    .Select(m => new { m.TenMonHoc }).ToList();
-
-            if (monHocs.Any())
+            var monHocs = db.MonHocs.Where(m => m.KhoaHocID == id).Select(m => new
             {
+                m.TenMonHoc
+            }).ToList();
+
+            if (monHocs.Count > 0)
+            {
+                // Trả về danh sách môn học nếu tìm thấy
                 return Json(new { success = true, data = monHocs }, JsonRequestBehavior.AllowGet);
             }
             else
             {
+                // Trả về thông báo lỗi nếu không tìm thấy môn học
                 return Json(new { success = false, message = "Không tìm thấy môn học nào" }, JsonRequestBehavior.AllowGet);
             }
         }
